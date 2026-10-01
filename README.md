@@ -46,7 +46,7 @@ Unless otherwise stated, all commands assume that the repository root directory 
 
 ```	
 
-## Microbiome (Metataxonomic) analyses
+## Microbiome analyses
 
 The microbiome workflow is organized into four sequential steps:
 
@@ -58,7 +58,7 @@ The microbiome workflow is organized into four sequential steps:
 
 ***Step 0. First, it is necessary to download the sequencing data***
 
-To do so, you need to enter the "0.DownloadData" subfolder of "Fungi" and "Bacteria" folders accordingly and execute the "fetch_data.sh" bash script for batch (01), this assumes that you are located at the working directory "Grapevine_Vinifications_Vidiano_2019-".
+To do so, you need to enter the "0.DownloadData" subfolder of "Fungi" and "Bacteria" folders accordingly and execute the "fetch_data.sh" bash script for each batch, this assumes that you are located at the working directory "Grapevine_Wood_Microbiome_Sultanina".
 
 The script downloads all raw amplicon sequencing reads deposited in the NCBI Sequence Read Archive using the corresponding SRR accession numbers listed in the batch files.Once the download is done, you need to combine all forward reads to a single file and all reverse reads to another file as well.
 ```
@@ -87,7 +87,7 @@ the following commands are going to save the demultiplexed files in the Fungi(or
 The demultiplexing workflow follows the protocol described in: https://github.com/SotiriosVasileiadis/mconsort_tbz_degr#16s
 ```
 
-***Step 2. The script `Vinification Vidiano 2019 Quality-Classification-Phyloseq Object.R` constructs the final phyloseq object used for all downstream microbiome analyses.***
+***Step 2. The script `Wood_Microbiome_Sultanina.R` constructs the final phyloseq object used for all downstream microbiome analyses.***
 
 PhyloseqObjectPreparation folder is run in order to prepare the final phyloseq object to be used in the data analysis described below. Before running the script make sure that the necessary reference databases are found in the same folder. The taxonomic annotations of the resulting fungal and bacterial ASVs were performed using the UNITE ITS v.8.2 (04.02.2020) (Morrison-Whittle et al., 2017) and the Silva v.138 (Yilmaz et al., 2014) databases as references respectively. The sample metadata file (samdf.txt), included in the repository, is also required for construction of the phyloseq objects.
 ```
@@ -95,7 +95,7 @@ cd Fungi/2.PhyloseqObjectPreparation
 # fetch the databases
 wget https://files.plutof.ut.ee/public/orig/1D/B9/1DB95C8AC0A80108BECAF1162D761A8D379AF43E2A4295A3EF353DD1632B645B.gz
 # run the R script
-Fungi Vinification Vidiano 2019 Quality-Classification-Phyloseq Object.r
+Fungi_Wood_Microbiome_Sultanina.r
 cd ../../
 cd Bacteria/2.PhyloseqObjectPreparation
 # fetch the databases
@@ -103,7 +103,7 @@ wget https://zenodo.org/record/4587955/files/silva_nr99_v138.1_train_set.fa.gz
 wget https://zenodo.org/record/4587955/files/silva_nr99_v138.1_wSpecies_train_set.fa.gz
 tar vxf *.gz
 # run the R script
-Bacteria Vinification Vidiano 2019 Quality-Classification-Phyloseq Object.r
+Bacteria_Wood_Microbiome_Sultanina.r
 cd ../../
 ```
 ***Step 3. The data analysis folder includes independent R scripts reproducing all microbiome analyses and figures presented in the manuscript***
