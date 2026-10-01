@@ -39,10 +39,10 @@ Unless otherwise stated, all commands assume that the repository root directory 
 │   └── 3.DataAnalysis
 │
 ├── Fungi/
-   ├── 0.DownloadData
-   ├── 1.Demultiplex
-   ├── 2.PhyloseqObjectPreparation
-   └── 3.DataAnalysis
+    ├── 0.DownloadData
+    ├── 1.Demultiplex
+    ├── 2.PhyloseqObjectPreparation
+    └── 3.DataAnalysis
 
 ```	
 
