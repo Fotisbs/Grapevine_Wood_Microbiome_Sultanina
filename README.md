@@ -5,9 +5,17 @@
 ### (\* corr. author)
 ### (\+ contributed equally to this work)
 
-<sup>1</sup> University of Thessaly, Department of Biochemistry and Biotechnology, Laboratory of Plant and Environmental Biotechnology, 41500 Viopolis – Larissa, Greece
+<sup>1</sup> University of Thessaly, Department of Biochemistry and Biotechnology, Larissa, Greece
 
-<sup>2</sup> Agricultural University of Athens, Department of Food Science and Human Nutrition, Laboratory of Enology and Alcoholic Drinks (LEAD),  11855 Iera Odos St. 75 – Athens, Greece
+<sup>2</sup> Aristotle University of Thessaloniki, Plant Pathology Laboratory, Faculty of Agriculture, Thessaloniki, Greece
+
+<sup>3</sup> Hellenic Mediterranean University, Department of Agriculture, School of Agricultural Sciences, Heraklion, Greece
+
+<sup>4</sup> Hellenic Agricultural Organization DIMITRA, Laboratory of Mycology, Department of Viticulture, Vegetable Crops, Floriculture and Plant Protection, Institute of Olive Tree, Subtropical Crops and Viticulture, Heraklion, Greece
+
+<sup>5</sup> University of Western Macedonia, Department of Agriculture, School of Agricultural Sciences, Florina, Greece
+
+<sup>6</sup> Department of Agrobiotechnology, Agricultural Research Institute, P.O.Box 22016, 1516, Nicosia, Cyprus
 
 ## Repository overview
 
