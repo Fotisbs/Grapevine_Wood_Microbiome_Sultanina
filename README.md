@@ -19,16 +19,16 @@
 
 ## Repository overview
 
-This repository contains all scripts required to reproduce the microbiome (metataxonomic) and metatranscriptomic analyses presented in the manuscript, including sequencing data retrieval, preprocessing, statistical analyses and figure generation. Raw sequencing data are publicly available through the NCBI Sequence Read Archive (NCBI SRA), while all downstream analyses can be reproduced using the scripts provided in this repository.
+This repository contains all scripts required to reproduce the microbiome analyses presented in the manuscript, including sequencing data retrieval, preprocessing, statistical analyses and figure generation. Raw sequencing data are publicly available through the NCBI Sequence Read Archive (NCBI SRA), while all downstream analyses can be reproduced using the scripts provided in this repository.
 
 To obtain the repository, install Git (if not already installed https://github.com/git-guides/install-git), open a terminal and clone the repository:
 
 ```
-$ git clone https://github.com/Fotisbs/Grapevine_Vinifications_Vidiano_2019-.git
+$ git clone https://github.com/Fotisbs/Grapevine_Wood_Microbiome_Sultanina.git
 ```
 Alternatively, the repository can be downloaded as a ZIP archive directly from GitHub.
 
-Unless otherwise stated, all commands assume that the repository root directory ("Grapevine_Vinifications_Vidiano_2019-") is used as the working directory. The required sequencing datasets can be downloaded directly from the NCBI Sequence Read Archive using the scripts provided in each module.
+Unless otherwise stated, all commands assume that the repository root directory ("Grapevine_Wood_Microbiome_Sultanina") is used as the working directory. The required sequencing datasets can be downloaded directly from the NCBI Sequence Read Archive using the scripts provided in each module.
 
 ## Repository structure
 ```
